@@ -1,6 +1,6 @@
 languages:
   - item: Python
-  - item: SQL (BigQuery, Postgres)
+  - item: SQL
   - item: Java
   - item: Ruby
   - item: C
@@ -16,4 +16,7 @@ frameworks:
 tools:
   - item: Git & Github
   - item: Bash
+  - item: Looker
+  - item: Mode
   - item: Lucidchart
+  - item: Zapier

@@ -9,14 +9,12 @@ resume: http://graham.place/resume.pdf
 social:
   - title: email
     url: mailto:grahamgplace@gmail.com
-  - title: twitter
-    url: https://twitter.com/graham_place
-  - title: instagram
-    url: https://www.instagram.com/g_place/
   - title: github
     url: http://github.com/grahamplace
   - title: linkedin
     url: https://www.linkedin.com/in/graham-place-6a6a13104/
+  - title: instagram
+    url: https://www.instagram.com/g_place/
 
 # Build settings
 markdown: kramdown

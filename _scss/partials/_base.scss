@@ -128,7 +128,7 @@ strong {
   }
   &__content {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 100%;
     max-width: 650px;
     @include tablet {
@@ -196,7 +196,7 @@ strong {
 
 .small {
   font-family: 'Inconsolata', monospace;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   display: inline-block;
   margin-top: 15px;
   &:after {
