@@ -1,0 +1,7 @@
+- name: Swerve
+  url: https://github.com/grahamplace/swerve
+  code: https://github.com/grahamplace/swerve
+  description: A custom solution for flexible "bookmarking" — accessed via your browser search bar.
+  used:
+    - thing: Python
+    - thing: Flask

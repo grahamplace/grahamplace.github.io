@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://graham.place/sitemap.xml

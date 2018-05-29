@@ -1,0 +1,19 @@
+languages:
+  - item: Python
+  - item: SQL (BigQuery, Postgres)
+  - item: Java
+  - item: Ruby
+  - item: C
+
+frameworks:
+  - item: Airflow
+  - item: Kubernetes
+  - item: Pytest
+  - item: Flask
+  - item: Rails
+  - item: Heroku
+
+tools:
+  - item: Git & Github
+  - item: Bash
+  - item: Lucidchart

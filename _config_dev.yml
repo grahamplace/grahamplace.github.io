@@ -1,0 +1,43 @@
+# Site settings
+name: Graham Place
+title: Graham Place | Software Engineer
+description: Software engineer focused on building analytics and data platforms for the next generation of startups
+url: https://graham.place/
+baseurl: ""
+email: grahamgplace@gmail.com
+resume: https://graham.place/resume.pdf
+social:
+  - title: email
+    url: mailto:grahamgplace@gmail.com
+  - title: twitter
+    url: https://twitter.com/graham_place
+  - title: instagram
+    url: https://www.instagram.com/g_place/
+  - title: github
+    url: http://github.com/grahamplace
+  - title: linkedin
+    url: https://www.linkedin.com/in/graham-place-6a6a13104/
+
+# Build settings
+markdown: kramdown
+# Build settings
+markdown: kramdown
+
+exclude:
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "*.gemspec"
+  - "README.md"
+  - "node_modules"
+  - "build"
+  - "gulpfile.js"
+  - "package.json"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"
+
+plugins:
+  - jekyll-minifier
+  - jekyll-sitemap
