@@ -10,6 +10,11 @@
     - label: Books
     - label: Non-Fiction
 
+- name: More Perfect
+  url: https://www.npr.org/podcasts/481105292/more-perfect
+  category:
+    - label: Podcasts
+
 - name: Ethics in the Real World — Peter Singer
   url: https://www.amazon.com/Ethics-Real-World-Essays-Things/dp/B01KYEHUZE/ref=sr_1_1?s=books&ie=UTF8&qid=1528067522&sr=1-1&keywords=ethics+in+the+real+word
   category:
