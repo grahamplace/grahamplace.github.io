@@ -1,0 +1,5 @@
+- name: Swerve
+  url: https://github.com/grahamplace/swerve
+  category:
+    - label: Python
+    - label: Flask
