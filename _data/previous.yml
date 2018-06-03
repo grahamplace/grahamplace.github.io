@@ -4,7 +4,7 @@
     - label: Books
     - label: Fiction
 
-- name: The Way We Eat: Why Our Food Choices Matter - Jim Mason, Peter Singer
+- name: The Way We Eat - Jim Mason & Peter Singer
   url: https://www.amazon.com/Way-We-Eat-Choices-Matter/dp/157954889X/ref=sr_1_3?s=books&ie=UTF8&qid=1528067476&sr=1-3&keywords=the+way+we+eat
   category:
     - label: Books
@@ -51,13 +51,13 @@
     - label: Books
     - label: Non-Fiction
 
-- name: Smarter Faster Better: The Transformative Power of Real Productivity - Charles Duhigg
+- name: Smarter Faster Better - Charles Duhigg
   url: https://www.amazon.com/Smarter-Faster-Better-Transformative-Productivity/dp/0812983599/ref=sr_1_2?s=books&ie=UTF8&qid=1528067740&sr=1-2&keywords=smarter+better+faster
   category:
     - label: Books
     - label: Non-Fiction
 
-- name: The Power of Habit: Why We Do What We Do in Life and Business - Charles Duhigg
+- name: The Power of Habit - Charles Duhigg
   url: https://www.amazon.com/Power-Habit-What-Life-Business/dp/081298160X/ref=pd_bxgy_14_img_2?_encoding=UTF8&pd_rd_i=081298160X&pd_rd_r=2QECTKQ3ESEE9JC287MK&pd_rd_w=UZGte&pd_rd_wg=DCBj2&psc=1&refRID=2QECTKQ3ESEE9JC287MK
   category:
     - label: Books
