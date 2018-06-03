@@ -1,5 +1,46 @@
-- name: Swerve
-  url: https://github.com/grahamplace/swerve
+- name: How Not to Die - Michael Greger, M.D.
+  url: https://www.amazon.com/How-Not-Die-Discover-Scientifically/dp/1250066115
   category:
-    - label: Python
-    - label: Flask
+    - label: Books
+    - label: Non-Fiction
+
+- name: The Dark Forest (Sequel to The Three Body Problem) - Cixin Liu
+  url: https://www.amazon.com/Dark-Forest-Remembrance-Earths-Past/dp/0765386690
+  category:
+    - label: Books
+    - label: Fiction
+
+- name: Radiolab
+  url: https://www.wnycstudios.org/shows/radiolab/
+  category:
+    - label: Podcasts
+
+- name: 99% Invisible
+  url: https://99percentinvisible.org/
+  category:
+    - label: Podcasts
+
+- name: The Daily (NY Times)
+  url: https://www.nytimes.com/podcasts/the-daily
+  category:
+    - label: Podcasts
+
+- name: Up First (NPR)
+  url: https://www.npr.org/podcasts/510318/up-first
+  category:
+    - label: Podcasts
+
+- name: More or Less (BBC)
+  url: https://www.bbc.co.uk/programmes/b006qshd
+  category:
+    - label: Podcasts
+
+- name: Python Bytes
+  url: https://pythonbytes.fm/
+  category:
+    - label: Podcasts
+
+- name: Philosphize This!
+  url: http://philosophizethis.org/
+  category:
+    - label: Podcasts
