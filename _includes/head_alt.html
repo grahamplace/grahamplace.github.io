@@ -23,13 +23,10 @@
 <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
 <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" hreflang="en-us">
 
-<div class="footer__links" style="text-align: left; margin-top: 30px; margin-left: 30px">
-  <a href="/">
+<div class="footer__links" style="text-align: right; margin-top: 30px; margin-right: 30px; margin-left: 30px">
+  <a href="/" style="text-align: left;">
     <span class="text">Home</span>
   </a>
-</div>
-
-<div class="footer__links" style="text-align: right; margin-top: 30px; margin-right: 30px">
   {% for link in site.social %}
   <a href="{{link.url}}" target="_blank" title="{{link.title}}">
     <span class="text">{{link.title}}</span>
