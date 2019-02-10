@@ -1488,7 +1488,7 @@ pre {
 <p>You can see the source code <a href="https://github.com/grahamplace/spelcheck">here</a>, and the live app <a href="https://goggle.graham.place/">here</a>.</p>
 
 <p>I was curious about autocomplete algorithms, so I needed a simple use case that required a suggestion algorithm.
-Dictionaries are straightforward, and it’s handy to have a suggestion-backed search bar. (If I’m using a dictionary, it’s probably because I don’t know how to spell a word!)</p>
+Dictionaries are straightforward, and it’s handy to have a suggestion-backed search bar. (If I’m using a dictionary, it’s probably <em>because</em> I don’t know how to spell a word!)</p>
 
 <p>Originally, the autosuggest algorithm was a <a href="https://en.wikipedia.org/wiki/Trie">trie search</a> on a trie built from a <a href="https://github.com/first20hours/google-10000-english">list of the 10k most common english words</a>. However, my trie search approach assumed prefix-correctness, that is, that the user input’s first few letters are what they intended — and thus only words with a matching prefix could be suggested. (This is because the prefix is used to limit the total search space considered by the trie search).</p>
 
@@ -1500,7 +1500,7 @@ Dictionaries are straightforward, and it’s handy to have a suggestion-backed s
   <li>Check each of these mutations against your corpus data structure, and pick the mutation with the highest heuristic score. If you want many results, sort by the heuristic score and return the top <code class="highlighter-rouge">N</code> results.</li>
 </ol>
 
-<p>When the user submits their input or picks from the suggestions, the definitions are sourced from the <a href="https://dictionaryapi.com/">Merriam Webster API</a>.</p>
+<p>When the user submits their input (or picks from the suggestions), the definitions are sourced from a request to the <a href="https://dictionaryapi.com/">Merriam Webster API</a>.</p>
 
 <p>The app is hosted on <a href="https://heroku.com">Heroku</a> and uses <a href="https://www.cloudflare.com/cdn/">Cloudflare</a> as its CDN.</p>
 

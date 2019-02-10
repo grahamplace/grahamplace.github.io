@@ -15,7 +15,7 @@ Goggle is an autosuggest dictionary app built with Flask, Javascript, and Bootst
 You can see the source code [here](https://github.com/grahamplace/spelcheck), and the live app [here](https://goggle.graham.place/).
 
 I was curious about autocomplete algorithms, so I needed a simple use case that required a suggestion algorithm.
-Dictionaries are straightforward, and it's handy to have a suggestion-backed search bar. (If I'm using a dictionary, it's probably because I don't know how to spell a word!)
+Dictionaries are straightforward, and it's handy to have a suggestion-backed search bar. (If I'm using a dictionary, it's probably _because_ I don't know how to spell a word!)
 
 Originally, the autosuggest algorithm was a [trie search](https://en.wikipedia.org/wiki/Trie) on a trie built from a [list of the 10k most common english words](https://github.com/first20hours/google-10000-english). However, my trie search approach assumed prefix-correctness, that is, that the user input's first few letters are what they intended — and thus only words with a matching prefix could be suggested. (This is because the prefix is used to limit the total search space considered by the trie search).
 
@@ -25,7 +25,7 @@ I found that the [Peter Norvig approach](https://norvig.com/spell-correct.html) 
 3. Given an input word, compute the finite set of mutations that are 1-2 [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) away from the input word.
 3. Check each of these mutations against your corpus data structure, and pick the mutation with the highest heuristic score. If you want many results, sort by the heuristic score and return the top `N` results.
 
-When the user submits their input or picks from the suggestions, the definitions are sourced from the [Merriam Webster API](https://dictionaryapi.com/).
+When the user submits their input (or picks from the suggestions), the definitions are sourced from a request to the [Merriam Webster API](https://dictionaryapi.com/).
 
 The app is hosted on [Heroku](https://heroku.com) and uses [Cloudflare](https://www.cloudflare.com/cdn/) as its CDN.
 
