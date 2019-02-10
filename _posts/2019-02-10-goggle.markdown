@@ -1,5 +1,5 @@
 ---
-title: "🔍 Goggle • An autosuggest dictionary web app"
+title: "🔍 Goggle • An autosuggest dictionary"
 layout: post
 date: 2018-02-10 21:32
 tag: [python, algorithms, data structures]
@@ -10,7 +10,7 @@ category: project
 author: grahamplace
 externalLink: false
 ---
-Goggle is an autosuggest odictionary app built with Flask, Javascript, and Bootstrap.
+Goggle is an autosuggest dictionary app built with Flask, Javascript, and Bootstrap.
 
 You can see the source code [here](https://github.com/grahamplace/spelcheck), and the live app [here](https://goggle.graham.place/).
 
