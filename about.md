@@ -4,43 +4,63 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Hello!</p>
+<p>I'm Graham, a software engineer in San Francisco, currently working at <a href="https://www.opendoor.com">Opendoor.</a></p>
+<p>
+I work on data and analytics infrastructure, and I'm excited about the possibilities unlocked by providing people and businesses the data they need to build better products and make better decisions.
+</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<!-- <h3>Skills</h3>
 
-<h2>Skills</h2>
-
+<h4>Languages</h4>
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
 	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>SQL</li>
+	<li>Bash</li>
 </ul>
 
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+<h4>Frameworks/Libraries</h4>
+<ul class="skill-list">
+	<li>Airflow</li>
+	<li>Kubernetes</li>
+	<li>Docker</li>
+	<li>Pytest</li>
+	<li>Pandas</li>
+	<li>SQLAlchemy</li>
+	<li>Flask</li>
+	<li>Rails</li>
+	<li>Vega-Lite</li>
 </ul>
+
+<h4>DBs/Analytics Tooling</h4>
+<ul class="skill-list">
+	<li>BigQuery</li>
+	<li>Snowflake</li>
+	<li>Postgres</li>
+	<li>Pytest</li>
+	<li>Looker</li>
+	<li>Mode</li>
+</ul>
+
+<h4>Tools</h4>
+<ul class="skill-list">
+	<li>Git</li>
+	<li>AWS</li>
+	<li>GCP</li>
+	<li>Travis CI</li>
+	<li>Heroku</li>
+	<li>Zapier</li>
+	<li>DataDog</li>
+	<li>Scalyr</li>
+</ul>
+
+<h4>Software</h4>
+<ul class="skill-list">
+	<li>JIRA</li>
+	<li>Github</li>
+	<li>GSuite</li>
+	<li>Pagerduty</li>
+</ul>
+
+<br>
+<h3><a href = '/projects'>See Projects</a></h3> -->

@@ -39,10 +39,11 @@ disqus:
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: grahamplace
+email: grahamgplace@gmail.com
 # youtube: myyoutube
-spotify: g.place
 github: grahamplace
+linkedin: grahamplace
+
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
@@ -50,7 +51,8 @@ github: grahamplace
 # reddit: username
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: grahamgplace@gmail.com
+spotify: g.place
+
 
 authors:
     johndoe:
