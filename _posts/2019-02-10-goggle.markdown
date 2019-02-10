@@ -1,0 +1,34 @@
+---
+title: "🔍 Goggle • An autosuggest dictionary web app"
+layout: post
+date: 2018-02-10 21:32
+tag: [python, algorithms, data structures]
+headerImage: false
+projects: true
+description: "A simple dictionary app with an autosuggest algorithm powering the search bar."
+category: project
+author: grahamplace
+externalLink: false
+---
+Goggle is an autosuggest odictionary app built with Flask, Javascript, and Bootstrap.
+
+You can see the source code [here](https://github.com/grahamplace/spelcheck), and the live app [here](https://goggle.graham.place/).
+
+I was curious about autocomplete algorithms, so I needed a simple use case that required a suggestion algorithm.
+Dictionaries are straightforward, and it's handy to have a suggestion-backed search bar. (If I'm using a dictionary, it's probably because I don't know how to spell a word!)
+
+Originally, the autosuggest algorithm was a [trie search](https://en.wikipedia.org/wiki/Trie) on a trie built from a [list of the 10k most common english words](https://github.com/first20hours/google-10000-english). However, my trie search approach assumed prefix-correctness, that is, that the user input's first few letters are what they intended — and that only words with a matching prefix would be suggested. (This is because the prefix is used to limit the total search space considered by the trie search).
+
+I found that the [Peter Norvig approach](https://norvig.com/spell-correct.html) returned better results, so I re-implemented the autosuggest backend with his approach. The basic idea is:
+1. Parse your source corpus into a persisted data structure with O(1) lookup time. I just used a simple python dictionary.
+2. Map each word from the corpus to some heuristic score. Since my corpus was a ranked list, I used the rank of each word. If your corpus was something more akin to a [book](https://norvig.com/big.txt), you might instead pick the word's total number of occurences in the corpus.
+3. Given an input word, compute the finite set of mutations that are 1-2 [Levenshtein distance](https://en.wikipedia.org/wiki/Levenshtein_distance) away from the input word.
+3. Check each of these mutations against your corpus data structure, and pick the mutation with the highest heuristic score. If you want many results, sort by the heuristic score and return the top `N` results.
+
+When the user submits their input or picks from the suggestions, the definitions are sourced from the [Merriam Webster API](https://dictionaryapi.com/).
+
+The app is hosted on [Heroku](https://heroku.com) and uses [Cloudflare](https://www.cloudflare.com/cdn/) as its CDN.
+
+Check out the example below or [try it yourself](https://goggle.graham.place/)!
+
+![goggle demo gif](/assets/gifs/goggle.gif)
