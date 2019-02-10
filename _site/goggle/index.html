@@ -1490,7 +1490,7 @@ pre {
 <p>I was curious about autocomplete algorithms, so I needed a simple use case that required a suggestion algorithm.
 Dictionaries are straightforward, and it’s handy to have a suggestion-backed search bar. (If I’m using a dictionary, it’s probably because I don’t know how to spell a word!)</p>
 
-<p>Originally, the autosuggest algorithm was a <a href="https://en.wikipedia.org/wiki/Trie">trie search</a> on a trie built from a <a href="https://github.com/first20hours/google-10000-english">list of the 10k most common english words</a>. However, my trie search approach assumed prefix-correctness, that is, that the user input’s first few letters are what they intended — and that only words with a matching prefix would be suggested. (This is because the prefix is used to limit the total search space considered by the trie search).</p>
+<p>Originally, the autosuggest algorithm was a <a href="https://en.wikipedia.org/wiki/Trie">trie search</a> on a trie built from a <a href="https://github.com/first20hours/google-10000-english">list of the 10k most common english words</a>. However, my trie search approach assumed prefix-correctness, that is, that the user input’s first few letters are what they intended — and thus only words with a matching prefix could be suggested. (This is because the prefix is used to limit the total search space considered by the trie search).</p>
 
 <p>I found that the <a href="https://norvig.com/spell-correct.html">Peter Norvig approach</a> returned better results, so I re-implemented the autosuggest backend with his approach. The basic idea is:</p>
 <ol>
