@@ -1,9 +1,14 @@
 ---
-layout: not_found
-title: 404
-permalink: /404.html
+layout: default
+permalink: /404.html 
 ---
-<div class="name">Graham Place</div>
-<img src="{{site.baseurl}}/img/emojis/thinking-face.png" alt="">
-<h1>Well this is awkward...</h1>
-<h2><br>Why don't you head back over to <a href="{{site.url}}">a page with content</a>.</h2>
+
+<section class="lost-container">
+  <h1>Uh oh!</h1>
+  <div class="link">
+    <img class="selfie" alt="{{ site.name }}" src="{{ site.url }}/assets/images/error.gif" />
+  </div>
+  <br />
+  <br />
+  <a href="/">Take me home!</a>
+</section>
