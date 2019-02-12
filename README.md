@@ -1,4 +1,6 @@
 # Readme
+[![Build Status](https://travis-ci.org/grahamplace/grahamplace.github.io.svg?branch=master)](https://travis-ci.org/grahamplace/grahamplace.github.io)
+
 My personal website, where I host blog posts, project pages, and my resume.
 
 Based on the [Indigo](https://github.com/sergiokopplin/indigo/fork) Jekyll theme and hosted on [Github Pages](https://pages.github.com/).
