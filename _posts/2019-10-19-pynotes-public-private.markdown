@@ -9,9 +9,9 @@ category: blog
 author: grahamplace
 externalLink: false
 ---
-_Based on Effective Python (Brett Slatkin), Chapter 3, Item 27: Prefer Public Attributes Over Private Ones_
+_Notes on Effective Python (Brett Slatkin), Chapter 3, Item 27: Prefer Public Attributes Over Private Ones_
 
-Python supports two types of visibility for a class's attributes: **public** and **private**.
+Python supports two types of visibility for a class's attributes: **public** and **private**. You should use public (and protected) attributes in most cases, reserving use of private attributes for avoiding naming conflicts with subclasses that are out of your control. 
 
 #### Public
 Public attributes of an object can be accessed directly using the dot operator, e.g. `my_obj.value`.
