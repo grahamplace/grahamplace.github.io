@@ -4,11 +4,8 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Hello!</p>
+<p>👋 </p>
 <p>I'm Graham, a software engineer in San Francisco, currently working at <a href="https://www.opendoor.com">Opendoor.</a></p>
-<p>
-I work on data and analytics infrastructure, and I'm excited about the possibilities unlocked by providing people and businesses the data they need to build better products and make better decisions.
-</p>
 
 <!-- <h3>Skills</h3>
 
