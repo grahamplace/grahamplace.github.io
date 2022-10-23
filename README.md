@@ -1,13 +1,20 @@
-# Readme
-[![Build Status](https://travis-ci.org/grahamplace/grahamplace.github.io.svg?branch=master)](https://travis-ci.org/grahamplace/grahamplace.github.io)
+# Hydejack Starter Kit
 
-My personal website, where I host blog posts, project pages, and my resume.
+A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 
-Based on the [Indigo](https://github.com/sergiokopplin/indigo/fork) Jekyll theme and hosted on [Github Pages](https://pages.github.com/).
+## Quick Start
+### Running locally
+1. Clone repository (git users), or [download] and unzip.
+2. Open terminal, `cd` into root directory (where `_config.yml` is located)
+3. Run `bundle install` [^1]
+4. Run `bundle exec jekyll serve`
+5. Open <http://localhost:4000/hydejack-starter-kit/>
 
-## Running Locally
-1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
-2. Run `bundle install`
-3. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
-4. Open it in your browser: `http://localhost:4000`
-5. To use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) panel, visit `http://localhost:4000/admin`. Note that the admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
+## What's next?
+* Open files and read the comments
+* Read the [docs](https://hydejack.com/docs/)
+* Buy the [PRO version](https://hydejack.com/download/) to get the project and resume layout, newsletter subscription box, custom forms, and more.
+
+[^1]: Requires Bundler. Install with `gem install bundler`.
+
+[download]: https://github.com/hydecorp/hydejack-starter-kit/archive/master.zip
