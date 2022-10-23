@@ -53,3 +53,5 @@ end
 gem 'wdm' if Gem.win_platform?
 gem "tzinfo-data" if Gem.win_platform?
 
+# https://hydejack.com/docs/install/#github-pages
+gem "github-pages", group: :jekyll_plugins
